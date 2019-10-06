@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:text="Registrasi"
+        android:textSize="24sp"
+        />
+
+    <EditText
+        android:id="@+id/et_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan nama anda"
+        android:imeOptions="actionNext"
+        android:inputType="text"
+        />
+
+    <Spinner
+        android:id="@+id/sp_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        />
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Masukkan email anda"
+        android:imeOptions="actionNext"
+        android:inputType="textEmailAddress"
+        />
+
+    <EditText
+        android:id="@+id/et_notelp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Masukkan no telepon anda"
+        android:imeOptions="actionNext"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:id="@+id/et_alamat"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="16dp"
+        android:gravity="top"
+        android:hint="Masukkan alamat anda"
+        android:imeOptions="actionDone"
+        android:inputType="textImeMultiLine"
+        />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFFFFF"
+        android:foreground="?selectableItemBackground"
+        android:text="simpan"
+        />
+
+</LinearLayout>
+</ScrollView>

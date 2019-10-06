@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BasicAndroid</string>
+
+    <string-array name="gender_list">
+        <item>Pilih jenis kelamin</item>
+        <item>Laki-laki</item>
+        <item>Perempuan</item>
+    </string-array>
+</resources>
